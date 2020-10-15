@@ -1,7 +1,7 @@
 <template>
   <div id="login">
     <div class="login-box">
-      <div class="title">ih2o 管理系统</div>
+      <div class="title"></div>
       <div class="form-box">
         <el-form @submit.native.prevent :model="form" size="large" :rules="rules">
           <el-form-item prop="phone">

@@ -27,7 +27,7 @@ export default {
         async submit() {
             try {
                 this.loading = true;
-                const res = await this.$http.post('/auth/login', this.form);
+                const res = await this.$http.post('/auth/create', this.form);
                 this.loading = false;
                 if (res.code >= 1) {
                     localStorage.jwt = res.jwt;
