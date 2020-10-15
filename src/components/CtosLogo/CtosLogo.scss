@@ -1,0 +1,36 @@
+@import "@/styles/variable.scss";
+
+.ctos-logo {
+    display: flex;
+    background-color: #434343;
+    max-width: 75px;
+    width: 75px;
+    min-width: 75px;
+    font-weight: normal;
+    box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.1);
+
+    .ct {
+        flex: 1;
+        background-color: #ffffff;
+        color: #434343;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        line-height: 1;
+        font-size: 18px;
+        padding-right: 3px;
+
+    }
+
+    .os {
+        color: #fff;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        line-height: 1;
+        font-size: 20px;
+        padding: 0 2px;
+    }
+}
+
+.ctos-logo /deep/ {}

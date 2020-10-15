@@ -1,0 +1,7 @@
+// $--color-success: #01A89F;
+// $--color-primary: #ffd04b;
+// $--color-danger: #F55D54;
+/* 改变 icon 字体路径变量，必需 */
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";

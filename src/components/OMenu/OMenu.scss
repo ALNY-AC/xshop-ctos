@@ -1,0 +1,9 @@
+@import "@/styles/variable.scss";
+
+.o-menu {
+    overflow: auto;
+    flex: 1;
+    border: none;
+}
+
+.o-menu /deep/ {}

@@ -1,0 +1,64 @@
+@import "@/styles/variable.scss";
+
+.default {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+
+    .nav-box {
+        border-right: solid 1px #ddd;
+        width: 210px;
+        min-width: 210px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+
+        .logo-box {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            img {
+                width: 40%;
+            }
+
+            .title {
+                font-size: 16px;
+                color: #333;
+            }
+
+            .sub-title {
+                font-size: 14px;
+                color: #777;
+            }
+        }
+    }
+
+    .view-panel {
+        flex: 1;
+        overflow: auto;
+
+        .view-box {}
+    }
+}
+
+.el-header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+}
+
+// .el-aside {
+//     min-height: 100%;
+// }
+
+// .el-main {
+//     background-color: #f6f6f6;
+//     padding: 0;
+//     display: flex;
+//     flex-direction: column;
+//     overflow: auto;
+// }

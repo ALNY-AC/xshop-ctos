@@ -1,0 +1,13 @@
+@import "@/styles/variable.scss";
+
+#dashboard {
+    padding: 20px;
+
+    .block {
+        background-color: #ffffff;
+        padding: 10px;
+        overflow: hidden;
+    }
+}
+
+#dashboard /deep/ {}
